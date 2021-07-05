@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Commerce_UnderGraduate_Acc1">
+
+
+    <Button
+        android:text="Principle to Accounting"
+        android:onClick="ac_link"
+        android:textSize="25sp"
+        android:background="#006400"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Finance and Banking"
+        android:onClick="ac_link"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:text="Business Organization and Management"
+        android:onClick="ac_link"
+        android:textSize="25sp"
+        android:background="#670d43"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Statistics (Theoretical)"
+        android:onClick="ac_link"
+        android:textSize="25sp"
+        android:background="#000840"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:text="Introduction to Home Economics"
+        android:onClick="ac_link"
+        android:textSize="25sp"
+        android:background="#a00550"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

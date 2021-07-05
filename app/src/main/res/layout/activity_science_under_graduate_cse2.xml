@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Science_UnderGraduate_Cse2">
+
+    <Button
+        android:text="Object Oriented Programming (Java)"
+        android:onClick="oop_link"
+        android:textSize="25sp"
+        android:background="#006400"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Data Structer"
+        android:onClick="ds_link"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:text="Algorithm Design"
+        android:onClick="ad_link"
+        android:textSize="25sp"
+        android:background="#006400"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Software Engineering"
+        android:onClick="se_link"
+        android:textSize="25sp"
+        android:background="#000840"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Database Systems"
+        android:onClick="db_link"
+        android:textSize="25sp"
+        android:background="#a00550"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Science_UnderGraduate_Cse4">
+
+    <Button
+        android:text="Data Mining"
+        android:onClick="dm_link"
+        android:textSize="25sp"
+        android:background="#006400"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="Machine Learning"
+        android:onClick="ml_link"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:text="Simulation and Modeling"
+        android:onClick="sm_link"
+        android:textSize="25sp"
+        android:background="#006400"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Cyber Security and Digital Forensics"
+        android:onClick="cs_link"
+        android:textSize="25sp"
+        android:background="#000840"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Bio-Informatics"
+        android:onClick="bi_link"
+        android:textSize="25sp"
+        android:background="#a00550"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

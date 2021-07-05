@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1079981479551",
+    "firebase_url": "https://smartstudyresource.firebaseio.com",
+    "project_id": "smartstudyresource",
+    "storage_bucket": "smartstudyresource.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079981479551:android:d1d0f7df275b7e8c97114a",
+        "android_client_info": {
+          "package_name": "com.example.smartstudyresource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079981479551-7vijfrkepeakppj6v212bjuehidqpaem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartstudyresource",
+            "certificate_hash": "f11b9f7e76f11a130271e28bd70921cf0000d077"
+          }
+        },
+        {
+          "client_id": "1079981479551-9f455p611gh97i3jm20bko26tsf8iec1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqMOm6rIwy4YkhPnGo5aks6iKtVTEDCKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079981479551-9f455p611gh97i3jm20bko26tsf8iec1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

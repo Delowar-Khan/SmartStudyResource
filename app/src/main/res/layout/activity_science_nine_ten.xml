@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Science_NineTen">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:onClick="nctbnineten_link"
+        android:background="#59A434"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:onClick="nctbnineten_link"
+        android:background="#FF1807"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biology"
+        android:onClick="nctbnineten_link"
+        android:background="#670d43"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statistics"
+        android:onClick="nctbnineten_link"
+        android:background="#673AB7"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Higher Mathmatics"
+        android:onClick="nctbnineten_link"
+        android:background="#009688"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>

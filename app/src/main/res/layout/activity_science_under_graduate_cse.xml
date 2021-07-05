@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Science_UnderGraduate_Cse">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#59A434"
+        android:textColor="@color/colorAccent"
+        android:text="First Year"
+        android:onClick="cse_first"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF1807"
+        android:text="Second Year"
+        android:onClick="cse_second"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#007"
+        android:text="Third Year"
+        android:textColor="@color/colorAccent"
+        android:onClick="cse_third"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:text="Fourth Year"
+        android:onClick="cse_fourth"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>
